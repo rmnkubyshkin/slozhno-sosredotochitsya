@@ -1,0 +1,35 @@
+@media (768px >= width) {
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 18px;
+    padding-block-start: 193px;
+    padding-inline-end: 35px;
+  }
+
+  .title {
+    inline-size: inherit;
+    justify-self: start;
+    padding-block-start: 180px;
+    padding-inline-start: 0px;
+  }
+
+  .title-style {
+    line-height: 82.5%;
+    font-size: 120px;
+  }
+
+  .header__text {
+    display: flex;
+    inline-size: inherit;
+    margin-block-start: 160px;
+    margin-inline-end: 20px;
+    flex-wrap: wrap;
+    justify-self: end;
+    max-inline-size: 365px;
+    max-block-size: 170px;
+  }
+} 
