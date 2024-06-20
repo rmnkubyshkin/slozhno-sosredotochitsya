@@ -1,11 +1,9 @@
 
-@media (min-width: 374px) and (max-width: 768px) {
+@media (375px < width <= 768px) {
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: column;
     align-content: end;
-    flex-wrap: wrap;
     justify-content: end;
     gap: 18px;
     padding-block-start: 193px;
@@ -13,10 +11,7 @@
   }
 
   .title {
-    inline-size: inherit;
-    justify-self: start;
     padding-block-start: 180px;
-    padding-inline-start: 0px;
   }
 
   .title-style {
@@ -25,27 +20,18 @@
   }
 
   .header__text {
-    display: flex;
-    inline-size: inherit;
     margin-block-start: 160px;
-    margin-inline-end: 20px;
-    flex-wrap: wrap;
-    justify-self: end;
     max-inline-size: 365px;
     max-block-size: 170px;
   }
 
   .content__top {
-    display: grid;
-    max-inline-size: inherit;
     grid-template-columns: 1.3fr 3fr;
     column-gap: 48px;
     padding-block-start: 240px;
   }
 
   .content__middle {
-    display: grid;
-    max-inline-size: inherit;
     grid-template-rows: 0.5fr 7.36fr;
     padding-block-end: 0px;
   }
@@ -65,36 +51,14 @@
   .content__bottom {
     column-gap: 10px;
   }
-
-  .content__bottom_title {
-    /* max-inline-size: 400px; */
-  }
-
-  .content__bottom_subtitle {
-    max-inline-size: 100%;
-  }
   
-  .content__bottom_article-list {
-    display: grid;
-  }
-
   .content__images_list {
-    display: grid;
-    max-inline-size: inherit;
-    max-block-size: 1090px;
-    grid-auto-flow: row;
     grid-template-columns: [start-col] 1fr [middle-col] 1fr [bottom-col] 1fr [end-col];
     grid-template-rows: [start-row] 192px [middle-row] 230px [bottom-row] 318px [end-row];
-    gap: 20px;
   }
 
-  
   .footer {
-    inline-size: 100%;
     block-size: 1085px;
-    display: grid;
     padding-block-start: 345px;
-    justify-content: center;
   }
-
 } 
