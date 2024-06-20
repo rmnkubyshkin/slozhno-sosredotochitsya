@@ -18,7 +18,7 @@
   font-style: normal;
   line-height: 130%;
   font-weight: 700;
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-text-color);
 }
 
@@ -66,11 +66,7 @@
 }
 
 .header {
-  background-image: url(/images/cover-image-dark.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 
 .header__theme-menu {
@@ -192,6 +188,7 @@
 .content__bottom_title {
   max-inline-size: 315px;
 }
+
 .content__bottom_subtitle {
   max-inline-size: 100%;
 }
@@ -207,6 +204,7 @@
 .content__images-title {
   margin-block-end: 20px;
 }
+
 .content__images_list {
   display: grid;
   max-inline-size: inherit;
