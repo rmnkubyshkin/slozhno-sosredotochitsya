@@ -13,7 +13,7 @@
 
 .theme_light .page {
   .page {
-    background-image: url(/images/cover-image-light.png);
+    background-image: url(../images/cover-image-light.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
