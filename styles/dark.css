@@ -348,7 +348,7 @@ a.link-decoration:focus {
   outline: 1px solid;
 }
 
-@media (min-width:375px) and  (max-width: 768px) {
+@media (375px < width < 768px) {
   
   .page {
     max-inline-size: 768px;
