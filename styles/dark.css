@@ -348,15 +348,10 @@ a.link-decoration:focus {
   outline: 1px solid;
 }
 
-@media (375px < width < 768px) {
+@media (min-width:375px) and  (max-width: 768px) {
   
   .page {
     max-inline-size: 768px;
-  }
-
-
-  .header {
-    margin-block-end: 184px;
   }
 
   .header__theme-menu-list {
@@ -386,7 +381,7 @@ a.link-decoration:focus {
   .content__top {
     grid-template-columns: 1.32fr 3fr;
     column-gap: 48px;
-    padding-block-start: 59px;
+    padding-block-start: 243px;
   }
 
   .content__middle {
@@ -436,9 +431,7 @@ a.link-decoration:focus {
 } 
 
 @media(100px <= width < 376px) {
-  .header {
-    margin-block-end: 0;
-  }
+
   .header::after {
     margin-inline-end: 10px;
     margin-block-start:  10px;
