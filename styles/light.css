@@ -32,13 +32,13 @@
   border-block-end: 2px solid var(--text-color);
 }
 
-.theme_light a.link-decoration:focus{
+.theme_light a.link-decoration:focus {
   outline: 1px solid;
 }
 
 .page.theme_light {
   color: var(--title-text-color);
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
 }
 
 .theme_light .content {

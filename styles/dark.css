@@ -160,7 +160,6 @@
   padding-inline: 12px;
   padding-block: 4px;
   outline: inherit;
-  color: inherit;
   color: var(--bg-accent-color);
   font: inherit;
   font-family: 'IBM Plex mono', Arial, Helvetica, sans-serif;
@@ -345,7 +344,7 @@ a.link-decoration:hover {
   border-block-end: 2px solid var(--text-color);
 }
 
-a.link-decoration:focus{
+a.link-decoration:focus {
   outline: 1px solid;
 }
 
@@ -353,6 +352,11 @@ a.link-decoration:focus{
   
   .page {
     max-inline-size: 768px;
+  }
+
+
+  .header {
+    margin-block-end: 184px;
   }
 
   .header__theme-menu-list {
@@ -382,7 +386,7 @@ a.link-decoration:focus{
   .content__top {
     grid-template-columns: 1.32fr 3fr;
     column-gap: 48px;
-    padding-block-start: 243px;
+    padding-block-start: 59px;
   }
 
   .content__middle {
@@ -432,7 +436,9 @@ a.link-decoration:focus{
 } 
 
 @media(100px <= width < 376px) {
-
+  .header {
+    margin-block-end: 0;
+  }
   .header::after {
     margin-inline-end: 10px;
     margin-block-start:  10px;
@@ -543,9 +549,6 @@ a.link-decoration:focus{
     margin-block-start: 650px;
   }
 
-}
-
-.page.theme_dark {
 }
 
 @media (prefers-color-scheme: dark) {
