@@ -94,5 +94,12 @@
 
 
 .theme_light .footer {
-  background-color: var(--text-accent-color);
+  background-color: var(--main-bg-color);
+}
+
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
 }
