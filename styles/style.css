@@ -1,8 +1,9 @@
+
 .page {
-  max-inline-size: 1024px;
   background-image: url(/images/cover-image-dark.png);
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
+  max-inline-size: 1024px;
 }

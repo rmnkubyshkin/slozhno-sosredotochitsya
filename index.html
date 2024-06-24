@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light">
+
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png">
+
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/variables.css">
@@ -15,7 +21,7 @@
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
-    <header class="header decorated-zone">
+    <header class="header">
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -42,7 +48,7 @@
           </li>
         </ul>
       </nav>
-      <section class="header__cover">
+      <section class="header__cover decorated-zone">
         <div class="title"> 
           <h1 class="title-style header__title-item">
             no focus
@@ -55,6 +61,11 @@
           <p class="header__text-item">
             Или почему нам так сложно сконцентрироваться, особенно когда очень надо
           </p>
+      </div>
+      <div class="header__rec">
+        <p class="header__rec-text">REC</p>
+      </div>
+      <div class="header__circle">
       </div>
       </section>
     </header>
@@ -72,7 +83,11 @@
               Особенно сложно сосредоточиться, когда задач много и все они — важные. 
               Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? 
               А дело в том, что её просто не существует. 
-              Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
+              Исследователи 
+                <a class="link-decoration"  href="https://www.dana.org/article/multicosts-of-multitasking/">
+                  выяснили
+                </a>
+              , что мозгу тяжело концентрироваться даже на двух делах одновременно. 
               А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». 
               Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
             </p>
@@ -172,7 +187,11 @@
             </h2>
             <p class="content__list-article content__article-font">
               Или даже пробегитесь. 
-              Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию, 
+              Лучше найти парк или лес: один эксперимент 
+              <a class="link-decoration" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328">
+                показал
+              </a>
+              , что созерцание природы повышает концентрацию, 
               в то время как после просмотра городских пейзажей она наоборот понижается. 
               Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. 
               Но и простая двадцатиминутная прогулка — тоже отличный вариант.  
@@ -207,30 +226,37 @@
         </h2>
         <div class="content__images_list">
           <div class="content__images_list-item content__images_list-item-1">
-            <img class="content__images_list-item-pic" src="./images/sunset.png">
+            <img class="content__images_list-item-pic" src="./images/sunset.png" 
+                  alt="Картинка на которой изображен закат">
           </div>
           <div class="content__images_list-item content__images_list-item-2">
-            <img class="content__images_list-item-pic" src="./images/ice-cream.png">
+            <img class="content__images_list-item-pic" src="./images/ice-cream.png"
+                  alt="Картинка на которой изображено мороженное в виде мультперсонажей">
           </div>
           <div class="content__images_list-item content__images_list-item-3">
-            <img class="content__images_list-item-pic" src="./images/tape.png">
+            <img class="content__images_list-item-pic" src="./images/tape.png" 
+                  alt="Картинка на которой изображена кассета">
           </div>
           <div class="content__images_list-item content__images_list-item-4">
-            <img class="content__images_list-item-pic" src="./images/books.png">
+            <img class="content__images_list-item-pic" src="./images/books.png"
+                  alt="Картинка на которой изображена стопка книг">
           </div>
           <div class="content__images_list-item content__images_list-item-5">
-            <img class="content__images_list-item-pic" src="./images/street.png">
+            <img class="content__images_list-item-pic" src="./images/street.png"
+                  alt="Картинка на которой изображена улица">
           </div>
         </div>
       </section>
-      <footer class="footer">
+    </main>
+    <footer class="footer">
+      <div class="footer__cover  decorated-zone">
         <div class="title">
           <h2 class="title-style footer__title-item">
             focus
           </h2>
         </div>
-      </footer>
-    </main>
+      </div>
+    </footer>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
