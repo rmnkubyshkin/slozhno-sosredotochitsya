@@ -8,7 +8,7 @@
 }
 
 .theme_light .header__rec-text {
-  color: var(--main-bg-color);
+  visibility: hidden;
 }
 
 .theme_light .page {
