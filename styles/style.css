@@ -446,15 +446,16 @@ a.link-decoration:focus {
     margin-block-start: 43px;
     max-inline-size: 365px;
   }
+
   .content {
-    padding-block-start: 149px;
+    margin-block-start: calc(100px + 49px);
     padding-block-end: 59px;
   }
 
   .content__hard-concentrate {
     grid-template-columns: 1.32fr 3fr;
     column-gap: 48px;
-    padding-block-start: 167px;
+    padding-block-start: 210px;
   }
 
   .content__decrease-concentration {
