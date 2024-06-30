@@ -1,8 +1,11 @@
 :root {
   --title-text-color: #DB00FF;
-  --title-shadow-color: #FF0070;
   --bg-accent-color: #FF0070;
+  --title-shadow-color: #FF0070;
   --text-accent-color: #000028;
   --text-color: #F1B2CE;
   --page-margin: 20px;
+  --additional-accent-color: #FF0070;
+  --additional-accent-color-with-opacity: #FF007066;
+  --main-bg-color: #000028;
 }
