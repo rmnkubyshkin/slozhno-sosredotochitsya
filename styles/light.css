@@ -1,17 +1,10 @@
 @media (prefers-color-scheme: light) {
 
-  @media (width <= 768px) {
-    .header__title-item {
-      --title-shadow-color: #FF8DCB;
-    }
-    .footer__title-item {
-      --title-shadow-color: #FF8DCB;
-    }
-  }
     :root {
       --title-text-color: #FFC2E6;
       --bg-accent-color: #FF8DCB;
       --title-shadow-color: #FF0070;
+      --title-shadow-color-changed: #FF8DCB;
       --text-accent-color: #353430;
       --text-color: #353430;
       --page-margin: 20px;
@@ -36,6 +29,7 @@
   --title-text-color: #FFC2E6;
   --bg-accent-color: #FF8DCB;
   --title-shadow-color: #FF0070;
+  --title-shadow-color-changed: #FF8DCB;
   --text-accent-color: #353430;
   --text-color: #353430;
   --page-margin: 20px;
