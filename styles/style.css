@@ -354,77 +354,11 @@ a.link-decoration:focus {
   .footer__title-item {
     text-shadow: 2px 2px 0px var(--title-shadow-color-changed);
   }
-}
-
-@media (width < 768px) {
-  .title {
-    line-height: 82.5%;
-  }
 
   .header__theme-menu-list {
     flex-direction: column;
     justify-content: end;
     align-content: end;
-    gap: 12px;
-    padding-inline-end: 22px;
-    padding-block-start: 188px;
-  }
-  
-  .content__hard-concentrate {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 48px;
-    padding-inline-start: 0px;
-    padding-block-start: 40px;
-    padding-block-end: 50px;
-    max-inline-size: inherit;
-  }
-
-  .header__text {
-    margin-inline-start: 20px;
-    margin-block-start: 0;
-    margin-block-end: 280px;
-  }
-
-  .content__decrease-concentration {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-block-end: 50px;
-  }
-
-  .content__decrease-concentration_article-list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .content__hard-concentrate_title {
-    padding-block-end: 20px;
-    max-inline-size: inherit;
-  }
-  
-  .content__concentration-tips {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    padding-block-end: 50px;
-  }
-
-  .content__images_list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    inline-size: 100%;
-  }
-
-  .content__concentration-tips_title {
-    padding-block-end: 20px;
-    max-inline-size: 100vh;
   }
 }
 
@@ -438,10 +372,6 @@ a.link-decoration:focus {
   }
   
   .header__theme-menu-list {
-    flex-direction: column;
-    justify-content: end;
-    align-content: end;
-    gap: 12px;
     padding-inline-end: 22px;
     padding-block-start: 188px;
   }
@@ -451,7 +381,6 @@ a.link-decoration:focus {
   }
 
   .title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 82.5%;
   }
 
@@ -490,7 +419,6 @@ a.link-decoration:focus {
 
   .header__cover {
     padding-block-start: 174px;
-    padding-block-end: 200px;
   }
 
   .header__rec {
@@ -506,42 +434,8 @@ a.link-decoration:focus {
     gap: 20px;
     max-inline-size: inherit;
   }
-  
-  .content__images_list-item {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    object-fit: cover;
-    object-position: center;
-    inline-size: 100%;
-    block-size: 100%;
-  }
-  
-  .content__images_list-item-sunset {
-    grid-column: start-col / span bottom-col;
-    grid-row: start-row / span middle-row;
-  }
-  
-  .content__images_list-item-ice-cream {
-    grid-column: bottom-col /span 1;
-    grid-row: start-row / span bottom-row;
-  }
-  
-  .content__images_list-item-tape {
-    grid-column: start-col / span middle-col;
-    grid-row: middle-row / span end-row;
-  }
-  
-  .content__images_list-item-books {
-    grid-column: middle-col / span bottom-col;
-    grid-row: middle-row / span bottom-row;
-  }
-  
-  .content__images_list-item-street {
-    grid-column: middle-col / span end-col;
-    grid-row: bottom-row / span end-row;
-  }
 } 
+
 
 @media (375px <= width < 768px) {
 
@@ -566,10 +460,6 @@ a.link-decoration:focus {
   }
   
   .header__theme-menu-list {
-    flex-direction: column;
-    justify-content: end;
-    align-content: end;
-    gap: 12px;
     padding-inline-end: 12px;
     padding-block-start: 70px;
   }
@@ -603,26 +493,64 @@ a.link-decoration:focus {
     max-inline-size: 100%;
   }
 
+  .content__hard-concentrate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+    padding-block-start: 40px;
+    padding-block-end: 50px;
+  }
+
   .content__concentration-tips_title {
     padding-block-end: 20px;
     max-inline-size: 100vh;
   }
 
-  .content__images {
+  .content__hard-concentrate_title {
+    padding-block-end: 20px;
     max-inline-size: inherit;
   }
-  
+
+  .content__concentration-tips {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-block-end: 50px;
+  }
+
   .content__images-title {
     margin-block-end: 10px;
   }
 
   .footer {
     padding-block-start: 0;
-    min-block-size: 668px;
   }
 
   .header__rec {
     padding-inline-end: 40px;
     padding-block-start: 10px;
+  }
+
+  .content__images_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    inline-size: 100%;
+  }
+
+  .content__decrease-concentration_article-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .content__decrease-concentration {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-block-end: 50px;
   }
 }
